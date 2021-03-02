@@ -1,0 +1,116 @@
+.nav{
+  font-size: 14px;
+text-transform: uppercase;
+}
+
+.nav:hover,::after{
+opacity: 1;
+color: #fce38a;
+}
+
+.nav__link{
+  display: inline-block;
+  color:#A3A4AC;
+  text-decoration: none;
+  transition: color; .2s linear;
+  margin:0 100px;
+  padding-top: 30px;
+}
+
+.nav__link:hover{
+  color:Black;
+
+}
+.header__iner{
+  display: flex;
+  justify-content:space-around
+
+}
+
+.fio{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+
+}
+
+.aboutMe{
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+
+}
+
+.my_Photo{
+display: block;
+  padding-top: 30px;
+margin-left: auto;
+margin-right: auto;
+width: 350px;
+}
+
+.text{
+  background: #F6F6F6;
+  padding-top: 35px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.skills{
+  padding-top: 35px;
+  text-align: center;
+
+}
+
+.skills_photo{
+  padding-top: 30px;
+  width: 150px;
+  height: 150px;
+
+} 
+
+.portfolio{
+  padding-top: 50px;
+  text-align: center;
+  background: #F6F6F6;
+}
+
+.portfolio_photo{
+  justify-content: center;
+  width: 750px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto; 
+  
+  
+}
+
+.portfolio_text{
+  color:#000000;
+  font-size: 18px; 
+}
+
+.portfolio_text:after{
+  text-decoration: none;
+  display: inline-block;
+
+  width: 3px;
+  height: 1px;
+  background-color: rgb(112, 34, 34);
+  position: absolute;
+  
+}
+
+.contact{
+  padding-top: 30px;
+  background: white;
+}
+
+.top{
+  display: inline-block;
+  color:#A3A4AC;
+  text-decoration: none;
+}
