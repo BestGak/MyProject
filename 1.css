@@ -6,9 +6,20 @@
   font-family: Gilroy-Medium;
   src: url(Gilroy-Medium.ttf);
 }
+
+.main_width{
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav{
   font-size: 14px;
 text-transform: uppercase;
+
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .nav:hover,::after{
@@ -17,12 +28,12 @@ color: #fce38a;
 }
 
 .nav__link{
+  
   display: inline-block;
   color:#A3A4AC;
   text-decoration: none;
-  transition: color; .2s linear;
-  margin:0 100px;
-  padding-top: 30px;
+  /* transition: color; .2s linear; */
+  padding: 30px;
   font-family:"Gilroy-Bold"
 }
 
@@ -32,7 +43,7 @@ color: #fce38a;
 }
 .header__iner{
   display: flex;
-  justify-content:space-around
+  justify-content: space-between;
 
 }
 
@@ -42,25 +53,41 @@ font-size: 16px;
 font-family: "Gilroy-Bold";
 }
 
+.lagnuage:active{
+  background: red;
+}
+
+.star{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+
 .aboutme{
-font-family: Gilroy-Medium;
-font-size: 13px;
+font-family: "Gilroy-Medium";
+font-size: 18px;
+line-height: 22px;
+color: ##070707;
 }
 
 .zagolovok{
-  font-family: "Girloy-Bold";
+  font-family: "Gilroy-Bold";
   font-size: 34px;
+  color: #070707;
 }
 
 .medium{
   font-family: "Gilroy-Medium";
   font-size: 14px;
+  color: #070707
 }
 
 .fio{
-  font-size: 30px;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
+  font-size: 47px;
+  line-height: 59px;
+
+  color: #070707;
   font-family:"Gilroy-Bold"
 }
 
@@ -73,36 +100,42 @@ font-size: 13px;
 
 .my_Photo{
 display: block;
-  padding-top: 30px;
+  padding: 80px;
 margin-left: auto;
 margin-right: auto;
-width: 350px;
-transform: rotate(90);
+width: 840px;
+/* transform: rotate(90); */
 }
 
 .text{
   background: #F6F6F6;
   padding-top: 35px;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;  
   padding-bottom: 35px;
 }
 
 .skills{
   padding-top: 35px;
   text-align: center;
-
+  
 }
 
-.skills_photo{
-  padding-top: 15px;
-  width: 150px;
-  height: 150px;
-  padding-bottom: 15px;
-  margin: 0 15px;
 
+.skills__photo{
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+  
+}
 
-} 
+.skills___text{
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  display: flex;
+  justify-content: space-around;
+}
 
 .portfolio{
   padding-top: 15px; 
@@ -156,9 +189,15 @@ transform: rotate(90);
 }
 
 .ikonka{
-  padding-top: 30px;
-  margin-bottom: 50px;
-  margin: 0 15px;
-  
+  padding: 30px;
+  margin: 0 1px;
 
+}
+
+.end_text{
+ font-family: "Gilroy-Medium"; 
+margin: 0%;
+ color: #828282;
+ font-size: 14px;
+line-height: 17px;
 }
