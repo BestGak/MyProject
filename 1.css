@@ -52,7 +52,7 @@ color: #070707;
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
-  
+  align-items: flex-end;
 }
 
 .lagnuage{
@@ -62,7 +62,9 @@ font-family: "Gilroy-Bold";
 text-decoration: none;
 text-transform: uppercase;
 color: #070707;
-
+position: relative;
+left: 20px;
+bottom: 60px;
 }
 
 .ru{
