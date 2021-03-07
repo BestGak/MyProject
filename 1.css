@@ -22,9 +22,15 @@ text-transform: uppercase;
   margin: auto;
 }
 
-.nav:hover,::after{
+.nav:hover,::after,
+.nav__link.active{
 opacity: 1;
-color: #fce38a;
+color: #070707;
+}
+
+.nav__link:active{
+  opacity: 1;
+  color: #070707;
 }
 
 .nav__link{
@@ -44,23 +50,35 @@ color: #fce38a;
 .header__iner{
   display: flex;
   justify-content: space-between;
-
+  padding: 30px;
 }
 
 .lagnuage{
 transform: rotate(270deg);  
 font-size: 16px;
 font-family: "Gilroy-Bold";
+text-decoration: none;
+text-transform: uppercase;
+color: #070707;
 }
 
-.lagnuage:active{
-  background: red;
+.ru{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #828282;
+}
+
+.eng{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #070707;
 }
 
 .star{
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
+  
 }
 
 
@@ -69,6 +87,7 @@ font-family: "Gilroy-Medium";
 font-size: 18px;
 line-height: 22px;
 color: ##070707;
+
 }
 
 .zagolovok{
@@ -100,9 +119,7 @@ color: ##070707;
 
 .my_Photo{
 display: block;
-  padding: 80px;
-margin-left: auto;
-margin-right: auto;
+padding: 80px;
 width: 840px;
 /* transform: rotate(90); */
 }
@@ -124,7 +141,7 @@ width: 840px;
 .skills__photo{
   display: flex;
   justify-content: space-around;
-  padding: 35px;
+  padding-top: 35px;
   
 }
 
@@ -135,6 +152,8 @@ width: 840px;
   color: #828282;
   display: flex;
   justify-content: space-around;
+  margin:  0 15px;
+  padding-bottom: 15px;
 }
 
 .portfolio{
