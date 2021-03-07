@@ -9,9 +9,9 @@
 
 
 .nav{
-  font-size: 14px;
+  font-size: 18px;
+line-height: 22px;
 text-transform: uppercase;
-
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -52,7 +52,7 @@ color: #070707;
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
-
+  
 }
 
 .lagnuage{
@@ -85,13 +85,13 @@ color: ##070707;
 
 }
 
-.zagolovok{
+.tittle{
   font-family: "Gilroy-Bold";
   font-size: 34px;
   color: #070707;
 }
 
-.medium{
+.font_medium{
   font-family: "Gilroy-Medium";
   font-size: 18px;
   color: #070707
@@ -199,21 +199,19 @@ padding-bottom: 30px;
   
 }
 
-
-
-.contact{
-  background: white; 
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  
-}
-
 .top{
   display: inline-block;
   color:#A3A4AC;
   text-decoration: none;
+}
+
+.contact{
+  padding-top: 35px;
+    text-align: center;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 
 .send{
