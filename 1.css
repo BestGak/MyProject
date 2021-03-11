@@ -14,7 +14,52 @@ line-height: 22px;
 text-transform: uppercase;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  align-items: flex-end;
+}
+
+#home{
+  position: relative;
+  right: 28px;
+  top: 4px;
+}
+
+#aboutmee{
+  position: relative;
+  right: 13px;
+  top: 4px; 
+}
+
+#item{
+  margin-top: 1px;
+}
+
+#aboutMe{
+  margin-bottom: -0.000001px;
+}
+
+#portfolioo{
+  position: relative;
+  left: 16px; 
+}
+
+#contactss{
+  position: relative;
+  left: 34px; 
+}
+
+#contacts{
+  padding-top: 44px;
+  padding-bottom: 25px;
+ margin: 0;
+}
+
+.contact_text{
+  margin: 0;
+  font-family: "Gilroy-Medium";
+  Size: 18px;
+  Line-height: 22px;
+  color: #070707
+  
 }
 
 .nav:hover,::after,
@@ -23,19 +68,29 @@ opacity: 1;
 color: #070707;
 }
 
+.nav__link.active{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  right: 150px;
+}
+
 .nav__link:active{
   opacity: 1;
   color: #070707;
 }
 
-.nav__link{
-  
-  display: inline-block;
+.nav__link{ 
+  text-transform: capitalize;
+  font-size: 18px;
+line-height: 22px; 
+  position: relative;
+  /* left: 20px; */
   color:#A3A4AC;
   text-decoration: none;
-  /* transition: color; .2s linear; */
   padding: 30px;
   font-family:"Gilroy-Bold"
+  
 }
 
 .nav__link:hover{
@@ -63,8 +118,8 @@ text-decoration: none;
 text-transform: uppercase;
 color: #070707;
 position: relative;
-left: 20px;
-bottom: 60px;
+left: 24px;
+bottom: 50px;
 }
 
 .ru{
@@ -80,10 +135,13 @@ bottom: 60px;
 }
 
 .aboutme{
-font-family: "Gilroy-Medium";
-font-size: 18px;
-line-height: 22px;
-color: ##070707;
+  position: relative;
+  right: 43px;
+  bottom: 27px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: ##070707;
 
 }
 
@@ -95,16 +153,20 @@ color: ##070707;
 
 .font_medium{
   font-family: "Gilroy-Medium";
-  font-size: 18px;
+  Size: 18px;
+  Line-height: 22px;
   color: #070707
+  
 }
 
 .fio{
+  position: relative;
+  bottom: 15px;
   font-size: 47px;
   line-height: 59px;
-
   color: #070707;
   font-family:"Gilroy-Bold"
+
 }
 
 .aboutMe{
@@ -116,7 +178,7 @@ color: ##070707;
 
 .my_Photo{
 display: block;
-padding-bottom: 80px;
+padding-bottom: 103px;
 width: 100%;
 /* transform: rotate(90); */
 }
@@ -124,22 +186,24 @@ width: 100%;
 .conteiner_aboutme{
   background: #F6F6F6; 
 }
-.text{
+.aboutme_text{
   background: #F6F6F6;
-  padding-top: 35px;
+  padding-top: 73px;
   text-align: center;  
-  padding-bottom: 35px;
+  padding-bottom: 95px;
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .container_skills{
-  padding-top: 35px;
+  padding-top: 44px;
   text-align: center;
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+padding-bottom: 153px;
 }
 
 
@@ -147,8 +211,93 @@ width: 100%;
 .my_skills{
 display: flex;
 justify-content: space-around;
-padding-bottom: 30px;
+padding-top: 27px;
+padding-bottom: 70px;
+height: 88px;
+position: relative;
+  right: 20px; 
+
 }
+
+#ps{
+  height: 88px;
+  width: 88px;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+
+#ps_text{
+  position: relative;
+  right: 10px;
+  bottom: 5px;
+}
+
+.star_ps{
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  margin: 0 5px;
+}
+
+#ai{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+#ai_text{
+  position: relative;
+  left: 8px;
+  bottom: 7px;
+}
+
+.star_ai{
+  position: relative;
+  left: 12px;
+  bottom: 12px;
+  margin: 0 5px;
+}
+
+#figma_photo{
+  position: relative;
+  left: 55px;
+  bottom: 10px;
+
+}
+
+.star_ae{
+  position: relative;
+  bottom: 12px;
+  left: 33px;
+  margin: 0 5px;
+}
+
+#ae{
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+
+#ae_text{
+  position: relative;
+  left: 33px;
+  bottom: 8px;
+}
+
+#text_figma{
+  position: relative;
+  bottom: 23px;
+  left: 55px;
+}
+
+.star_figma{
+position: relative;
+bottom: 12px;
+margin: 0 5px;
+left: 55px;
+}
+
 
 .text_skill{
   font-family: "Gilroy-Bold";
@@ -159,35 +308,57 @@ padding-bottom: 30px;
 }
 
 
+
 .container_portfolio{
   background: #F6F6F6;
+ 
 }
 
 .portfolio{
-  padding-top: 15px; 
+  padding-top: 73px;
   text-align: center;
   background: #F6F6F6;
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 43px;
 }
 
 .portfolio_photo{
   justify-content: center;
-  width: 700px;
+  width: 940px;
   padding-top: 30px;
   display: flex;
   flex-direction: row;
   margin-left: auto;
   margin-right: auto; 
-  padding-bottom: 30px; 
+  padding-bottom: 40px; 
+}
+
+#second{
+padding-top: 102px;
+padding-bottom: 25px;
+}
+
+#skills{
+  padding-bottom: 10px;
+}
+
+#text_skil{
+  padding-bottom: -8px;
+}
+
+#third{
+  padding-top: 102px;
+  padding-bottom: 40px;
 }
 
 .portfolio_text{
   color:#000000;
   font-family: "Gilroy-Medium";
-  font-size: 13px; 
-  
+  Size: 18px;
+Line-height: 22px;
+
 }
 
 .portfolio_text:after{
@@ -208,26 +379,42 @@ padding-bottom: 30px;
 }
 
 .contact{
-  padding-top: 35px;
+  padding-top: 65px;
     text-align: center;
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    
   
 }
 
 .send{
   width: 180px; 
+  padding-top: 20px;
 }
 
 .ikonka{
-  padding: 30px;
-  margin: 0 1px;
+  padding: 50px;
 
+  margin: 0 -22px;
+
+}
+
+.icons{
+  padding-top: 8px;
+}
+
+button{
+  border: 0;
+  padding:0;
+  padding-top: 20px;
 }
 
 .end_text{
  font-family: "Gilroy-Medium"; 
+position: relative;
+bottom: 11px;
+left: 3px;
 margin: 0%;
  color: #828282;
  font-size: 14px;
