@@ -1,0 +1,271 @@
+@font-face{
+  font-family: Gilroy-Bold;
+  src: url(/fonts/Gilroy-Bold.ttf);
+}
+@font-face{
+  font-family: Gilroy-Medium;
+  src: url(/fonts/Gilroy-Medium.ttf);
+}
+
+
+.header{
+max-width: 375px;
+text-align: center;
+padding-top: 65px;
+padding-left: 26px;
+margin: auto;
+}
+
+#tittle{
+  font-size: 47px;
+  line-height: 58px;
+  text-align: left;
+  margin-bottom: -1px;
+}
+
+#suptittle{
+  text-align: left;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 24px;
+  font-family: "Gilroy-Medium";
+}
+
+#my_photo{
+  width: 316px;
+  max-width: 100%;
+  height: auto;
+  height: 478px;
+  display: flex;
+  padding-bottom: 85px;
+}
+
+.container_aboutme{
+  max-width: 375px; 
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  right: 15px;
+}
+
+.aboutme{
+  padding-top: 50px;
+  background: #F6F6F6;  
+  
+}
+
+#title_aboutme{
+  font-family:"Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  padding-bottom: 13px;
+  
+}
+
+#suptittle_aboutme{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+#suptittle_aboutme1{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  padding-top: 42px;
+  align-items: center;
+  padding-bottom: 42px;
+}
+
+#suptittle_aboutme2{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.container_skills{
+  max-width: 375px; 
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  right: 15px;
+  padding-top: 52px;
+  padding-bottom: 75px;
+}
+
+#tittle_skills{
+  font-family:"Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  padding-bottom: 16px;
+}
+
+#suptittle_skills{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.item_skills{
+  display: flex;
+  flex-direction: column;
+}
+
+.photoshop{
+  padding-top: 56px;
+  padding-bottom: 24px;
+}
+
+.text_skills{
+  font-size: 14px;
+  font-family: "Gilroy-Bold";
+  line-height: 17px;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 23px;
+  color: #828282;
+}
+
+.images_star{
+  position: relative;
+  left: 2px;
+  margin: 0 4px;
+}
+
+.ai{
+  padding-top: 56px;
+  padding-bottom: 24px;
+}
+
+.container_portfolio{
+  max-width: 375px; 
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  right: 15px;
+  background: #F6F6F6;  
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 53px;
+}
+
+#tittle_portfolio{
+  
+  font-family:"Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  padding-top: 50px;
+}
+
+#store{
+  width: 100%;
+  align-items: center;
+  padding-top: 50px;
+  width: 316px;
+  padding-bottom: 15px;
+  
+}
+
+.portfolio_text{ 
+  padding-top: 10px;
+  color: #000000;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+#reebok{
+  width: 100%;
+  align-items: center;
+  padding-top: 50px;
+  width: 316px;
+  padding-bottom: 17px;
+}
+
+#braun{
+  width: 100%;
+  align-items: center;
+  padding-top: 50px;
+  width: 316px;
+  padding-bottom: 20px;
+}
+
+.container_contacts{
+  max-width: 375px; 
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+#tittle_contacts{
+  font-family:"Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  padding-bottom: 16px;
+  position: relative;
+  right: 15px;
+  padding-top: 53px;
+  
+}
+
+.supptittle_contacts{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #090909;
+  position: relative;
+  right: 15px;
+  margin-top: -7px;
+}
+
+#btn{
+  position: relative;
+  right: 15px;
+  padding-top: 24px;
+  border: 0;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+#btn:hover{
+  cursor: pointer;
+}
+
+#btn:active,#btn:focus{
+  border: 0;
+  outline: 0;
+}
+
+.icons_contacts{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 27px;
+  position: relative;
+  right: 12px;
+}
+
+#text_contact{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  padding-top: 22px;
+  position: relative;
+  right: 12px;
+  color: #828282;
+}
+

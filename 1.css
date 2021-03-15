@@ -103,7 +103,7 @@ line-height: 22px;
   margin-right: auto;
 }
 
-.header__iner{
+.header__iner{ 
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -210,6 +210,7 @@ padding-bottom: 153px;
 
 
 .my_skills{
+  
 display: flex;
 justify-content: space-around;
 padding-top: 27px;
@@ -327,7 +328,7 @@ left: 55px;
 
 .portfolio_photo{
   justify-content: center;
-  width: 940px;
+  width: 100%;
   padding-top: 30px;
   display: flex;
   flex-direction: row;
@@ -421,3 +422,14 @@ margin: 0%;
  font-size: 14px;
 line-height: 17px;
 }
+
+ 
+@media screen and (max-width: 375px){
+  .my_skills{
+    width: 100%;
+    height: auto;
+  }
+  }
+  
+
+
