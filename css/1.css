@@ -21,6 +21,8 @@ margin: auto;
   line-height: 58px;
   text-align: left;
   margin-bottom: -1px;
+  font-family: "Gilroy-Bold";
+  color: #000000;
 }
 
 #suptittle{
@@ -29,6 +31,8 @@ margin: auto;
   line-height: 22px;
   padding-bottom: 24px;
   font-family: "Gilroy-Medium";
+  color: #090909;
+
 }
 
 #my_photo{
@@ -112,6 +116,7 @@ margin: auto;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  color: #000000;
 }
 
 .item_skills{
@@ -267,5 +272,14 @@ margin: auto;
   position: relative;
   right: 12px;
   color: #828282;
+}
+
+#pc_link{
+    text-decoration: underline;
+    color: #000000;
+    align-items: center;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+ 
 }
 

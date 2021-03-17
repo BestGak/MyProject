@@ -141,7 +141,7 @@ bottom: 50px;
   font-family: "Gilroy-Medium";
   font-size: 18px;
   line-height: 22px;
-  color: ##070707;
+  color: #070707;
 
 }
 
@@ -410,6 +410,7 @@ button{
   border: 0;
   padding:0;
   padding-top: 20px;
+  background: white;
 }
 
 .end_text{
@@ -421,6 +422,13 @@ margin: 0%;
  color: #828282;
  font-size: 14px;
 line-height: 17px;
+}
+
+#mobile_link{
+  text-decoration: underline;
+  color: #000000;
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
 }
 
  
