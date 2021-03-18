@@ -29,10 +29,26 @@ margin: auto;
   display: flex;
 }
 
-#menu{
+
+.dropdown {
   position: relative;
+  display: inline-block;
   left: 75px;
-  bottom: 15px;
+  top: 53px;
+}
+.dropdown-child {
+  display: none;
+  background-color: black;
+}
+
+.dropdown-child a {
+  color: white;
+  padding-bottom: 8px; 
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
 }
 
 #suptittle{
