@@ -25,6 +25,16 @@ margin: auto;
   color: #000000;
 }
 
+.tittle{
+  display: flex;
+}
+
+#menu{
+  position: relative;
+  left: 75px;
+  bottom: 15px;
+}
+
 #suptittle{
   text-align: left;
   font-size: 18px;
