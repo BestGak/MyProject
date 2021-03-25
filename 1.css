@@ -9,42 +9,58 @@
 
 
 .nav{
-  font-size: 18px;
-line-height: 22px;
+  /* font-size: 18px;
+line-height: 22px; */
 text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
+
 #home{
   position: relative;
   right: 28px;
   top: 4px;
+  font-size: 1.125em;
+  line-height: 22px;
 }
 
 #aboutmee{
   position: relative;
   right: 13px;
   top: 4px; 
+  font-size: 1.125em;
+  line-height: 22px;
 }
+
 
 #item{
   margin-top: 1px;
 }
+#skillss{
+  font-size: 1.125em;
+  line-height: 22px;
+}
 
 #aboutMe{
   margin-bottom: -0.000001px;
+  font-size: 1.125em;
+  line-height: 22px;
 }
 
 #portfolioo{
   position: relative;
   left: 16px; 
+  font-size: 1.125em;
+  line-height: 22px;
 }
 
 #contactss{
   position: relative;
   left: 34px; 
+  font-size: 1.125em;
+  line-height: 22px;
 }
 
 #contacts{
@@ -112,7 +128,7 @@ line-height: 22px;
 
 .lagnuage{
 transform: rotate(270deg);  
-font-size: 16px;
+font-size: 1em;
 font-family: "Gilroy-Bold";
 text-decoration: none;
 text-transform: uppercase;
@@ -139,7 +155,7 @@ bottom: 50px;
   right: 43px;
   bottom: 27px;
   font-family: "Gilroy-Medium";
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 22px;
   color: #070707;
 
@@ -162,7 +178,7 @@ bottom: 50px;
 .fio{
   position: relative;
   bottom: 15px;
-  font-size: 47px;
+  font-size: 3em;
   line-height: 59px;
   color: #070707;
   font-family:"Gilroy-Bold"
@@ -210,95 +226,32 @@ padding-bottom: 153px;
 
 
 .my_skills{
-  
+  width: 100%;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 padding-top: 27px;
 padding-bottom: 70px;
 height: 88px;
-position: relative;
-  right: 20px; 
-
 }
 
 #ps{
-  height: 88px;
-  width: 88px;
-  position: relative;
-  right: 10px;
-  bottom: 10px;
+width: 90px;
+height: 90px;
 }
 
-#ps_text{
-  position: relative;
-  right: 10px;
-  bottom: 5px;
-}
 
-.star_ps{
-  position: relative;
-  right: 10px;
-  bottom: 10px;
+.star{
   margin: 0 5px;
-}
-
-#ai{
-  position: relative;
-  left: 10px;
-  bottom: 10px;
-}
-
-#ai_text{
-  position: relative;
-  left: 8px;
-  bottom: 7px;
-}
-
-.star_ai{
-  position: relative;
-  left: 12px;
-  bottom: 12px;
-  margin: 0 5px;
+  width: 26px;
+  height: 26px;
 }
 
 #figma_photo{
-  position: relative;
-  left: 55px;
-  bottom: 10px;
-
+  height: 90px;
+  width: 90px;
 }
 
-.star_ae{
-  position: relative;
-  bottom: 12px;
-  left: 33px;
-  margin: 0 5px;
-}
 
-#ae{
-  position: relative;
-  left: 30px;
-  bottom: 10px;
-}
-
-#ae_text{
-  position: relative;
-  left: 33px;
-  bottom: 8px;
-}
-
-#text_figma{
-  position: relative;
-  bottom: 23px;
-  left: 55px;
-}
-
-.star_figma{
-position: relative;
-bottom: 12px;
-margin: 0 5px;
-left: 55px;
-}
 
 
 .text_skill{
@@ -397,7 +350,6 @@ Line-height: 22px;
 
 .ikonka{
   padding: 50px;
-
   margin: 0 -22px;
 
 }
@@ -431,14 +383,36 @@ line-height: 17px;
   font-size: 15px;
 }
 
- 
+.skill_images{
 
-@media screen and (max-width: 375px){
-  .my_skills{
-    width: 100%;
-    height: auto;
-  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__inner, .header__iner{
+font-size: 0.9em;
   }
   
+}
 
+
+@media screen and (max-width: 880px){
+  .skill_images{
+    display: inline-block;
+    
+  }
+}
+
+
+
+@media screen and (max-width: 700px){
+  .header__inner, .header__iner{
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .header__inner, .header__iner{
+    font-size: 0.57em;
+  }
+}
 
