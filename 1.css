@@ -237,6 +237,7 @@ height: 88px;
 #ps{
 width: 90px;
 height: 90px;
+
 }
 
 
@@ -395,9 +396,11 @@ font-size: 0.9em;
 }
 
 
-@media screen and (max-width: 880px){
-  .skill_images{
-    display: inline-block;
+@media screen and (max-width: 816px){
+  .my_skills{
+    padding-bottom: 250px;
+    display: flex; 
+    flex-wrap: wrap;
     
   }
 }
