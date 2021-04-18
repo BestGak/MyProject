@@ -2,6 +2,7 @@
 <html lang="en">
   <link rel="stylesheet" href="1.css" />
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <title>First_Site</title>
@@ -10,11 +11,11 @@
     <header class="header">   
       <div class="header__inner">  
       <nav class="nav">           
-        <a id="home" class="nav__link active" href="#home">Home</a>
-        <a id="aboutmee" class="nav__link" href="#aboutMe">About me</a>
-        <a id="skillss" class="nav__link" href="#skills">Skills</a>
-        <a id="portfolioo" class="nav__link" href="#portfolio">Portfolio</a>
-        <a id="contactss" class="nav__link" href="#contacts">Contacts</a>
+        <a id="home" class="nav__link active">Home</a>
+        <a id="aboutmee" class="nav__link">About me</a>
+        <a id="skillss" class="nav__link">Skills</a>
+        <a id="portfolio" class="nav__link">Portfolio</a>
+        <a id="contactss" class="nav__link">Contacts</a>
        </nav>
           <hr color="grey" />
   </div>
@@ -41,7 +42,7 @@
     <img class="my_Photo" src="2.jfif" alt="Its me" />
   </header>
 
-    <div class="conteiner_aboutme">
+    <div id="conteiner_aboutme" class="conteiner_aboutme">
     <div class="aboutme_text">
       <h4 class="tittle" id="aboutMe">About me</h4>
       <p class="font_medium"><b>Hi i'm Mikhailo - Html|Css developer from Kiev.<br>I'm interested in design and everything connected with it.</b></p>
@@ -52,7 +53,7 @@
     </div>
     </div>
     
-    <div class="container_skills">
+    <div id="container_skills" class="container_skills">
       <h4 class="tittle" id="skills">Skills</h4>
       <p id="text_skil" class="font_medium">I work in such programs</p>
       <br>
@@ -102,7 +103,7 @@
     </div>
     </div>
     
-    <div class="container_portfolio">
+    <div id="container_portfolio" class="container_portfolio">
     <div class="portfolio">
       <h2 class="tittle" id="portfolio">Portfolio</h2>
       <img class="portfolio_photo" src="store.png" alt="first site" />
@@ -121,7 +122,7 @@
     </div>
     </div>
       
-   <div class="contact">
+   <div id="contact" class="contact">
         <h4 class="tittle" id="contacts">Contact</h4>
         <p class="contact_text"><b>Want more or just chat?</b></p>
         <p class="contact_text"><b>You are welcome!</b></p>
@@ -146,8 +147,9 @@
           <br>
           <!-- <a id="mobile_link" href="index.html">Переход на мобильную версию</a> -->
           <br>
-          <a class="top" href="#top">Наверх</a>
+          <a id="top" class="top">Наверх</a>
         </div>
         </div>
+        <script src="js/main.js"></script>
   </body>
 </html>
